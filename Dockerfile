@@ -2,7 +2,7 @@ FROM land007/centos:latest
 MAINTAINER Yiqiu Jia <yiqiujia@hotmail.com>
 
 RUN yum update -y \
-	&& yum install -y gcc-c++ make openssl-devel \
+	&& yum install -y gcc-c++ gcc glibc-headers make openssl-devel \
 	&& yum clean all
 
 
