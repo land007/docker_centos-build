@@ -1,4 +1,4 @@
-FROM land007/centos:latest
+FROM land007/centos:7.5.1804
 MAINTAINER Yiqiu Jia <yiqiujia@hotmail.com>
 
 RUN yum update -y \
