@@ -6,4 +6,7 @@ RUN yum update -y \
 	&& yum clean all
 
 
-#docker stop centos-build ; docker rm centos-build ; docker run -it --privileged -p 20000:20022 --name centos-build land007/centos-build:latest
+#latest
+#docker stop centos ; docker rm centos ; docker run -it --privileged --name centos land007/centos:latest
+#7.5.1804
+#docker stop centos ; docker rm centos ; docker run -it --privileged --name centos land007/centos:7.5.1804
